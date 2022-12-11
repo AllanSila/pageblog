@@ -1,0 +1,152 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+body{
+    background-color: #cbdcdf;
+    color: #000000 ;
+}
+#foto_logo{
+    width: 4%;
+    border-radius: 50%;
+    
+}
+.div_foto{
+    width: 100%;
+    margin: 1%;
+}
+.cabecalho{
+    widows: 100%;
+    height: 20%;
+    background-color:#000000 ;
+    box-sizing: border-box;    
+    display: flex;
+    justify-content: space-between;
+    border-bottom:solid 3px #aeced2;
+    position: sticky ;top: 0;
+    box-shadow: 5px 5px 5px #aeced2;
+
+}
+nav{
+    text-align: center;
+    width: 50%;
+    padding: 1.5%;
+    padding-bottom: 0;
+}
+a{
+    color:#aeced2;
+    margin: 3%;
+    margin-top:auto;
+    text-decoration: none;
+    
+}
+
+.principalroom{
+    width: 100%;
+    height: 50%;
+    background-color: #aeced2;
+    display: flex;
+}
+
+.divlogo{
+    border-radius: 50%;
+    justify-content: end;
+    width: 40%;
+    text-align: center;
+    padding: 1%;
+    padding-top: 2%;
+}
+.TEMBOTAO{
+    width: 50%;
+    margin: 5%;
+    background-color: #cbdcdf;
+    padding: 1%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 000000;
+    text-align: center;
+}
+button{
+    background-color: #000000;
+    color: #cbdcdf;
+    border-radius: 10%;
+}
+
+.secundariaromm{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    display: flex;
+    padding: 5%;
+    padding-bottom: 0;
+}
+
+
+.metadetexto{
+    width: 50%;
+    height: auto;
+    padding: 5%;
+    text-align: center;
+}
+
+.metadefoto{
+    width: 50%;
+    height: auto;
+    padding: 5%;
+    border-radius: 5px;
+
+}
+.fotona{
+    border-radius: 50px;
+}
+
+img{
+    box-shadow: 5px 5px 10px 000000;
+    border-radius: 10px;
+
+}
+
+.formulario{
+    background-color: #ff8830;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+}
+.divforms{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex
+}
+
+
+
+footer{
+    width: 100%;
+    height: 25px;
+    background-color: #ff8830;
+    color: #000000;
+    text-align: center;
+    position: sticky ;bottom: 0;
+
+}
+
+
+
+a:hover{
+    color: #ff8830;
+}
+a:active{
+    color: #d1b8a0;
+}
+button:hover{
+    background-color: #ff8830;
+    color: #000000;
+}
+button:active{
+    background-color: #aeced2;
+    color: #000000;
+}
